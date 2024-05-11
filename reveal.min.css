@@ -1,11 +1,9 @@
 /*!
 * reveal.js 4.0.2
 * https://revealjs.com
-* MIT licensed
-*
-* Copyright (C) 2020 Hakim El Hattab, https://hakim.se
+* Edited version 1.2
 */
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {*/
   .reveal .r-stretch,
   .reveal .stretch {
     max-width: none;
@@ -1556,43 +1554,6 @@
   .reveal.show-notes .speaker-notes {
     display: block;
   }
-  /*
-@media screen and (min-width: 1600px) {
-  .reveal .speaker-notes {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .reveal.show-notes {
-    border-left: 0;
-    max-width: none;
-    max-height: 70%;
-    max-height: 70vh;
-    overflow: visible;
-  }
-  .reveal.show-notes .speaker-notes {
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 42.85714%;
-    height: 30vh;
-    border: 0;
-  }
-}
- @media screen and (max-width: 600px) {
-  .reveal.show-notes {
-    max-height: 60%;
-    max-height: 60vh;
-  }
-  .reveal.show-notes .speaker-notes {
-    top: 100%;
-    height: 66.66667%;
-    height: 40vh;
-  }
-  .reveal .speaker-notes {
-    font-size: 14px;
-  }
-} */
   .zoomed .reveal *,
   .zoomed .reveal :after,
   .zoomed .reveal :before {
@@ -1728,7 +1689,7 @@
   html.print-pdf .aria-status {
     display: none;
   }
-}
+/*}*/
 @media print {
   html:not(.print-pdf) {
     background: #fff;
